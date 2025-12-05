@@ -12,6 +12,6 @@ public class HomeController {
 
     @GetMapping("/admin")
     public String admin(){
-        return "dashboard/index";
+        return "dashboard/index.html";
     }
 }
